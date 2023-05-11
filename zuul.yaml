@@ -1,0 +1,11 @@
+- project:
+    merge-mode: squash-merge
+    default-branch: main
+    templates:
+      - helpcenter-base-jobs
+    check:
+      jobs:
+        - noop
+    gate:
+      jobs:
+        - noop
