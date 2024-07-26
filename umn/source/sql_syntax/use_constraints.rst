@@ -1,6 +1,6 @@
-:original_name: ddm-08-0013.html
+:original_name: ddm_08_0013.html
 
-.. _ddm-08-0013:
+.. _ddm_08_0013:
 
 Use Constraints
 ===============

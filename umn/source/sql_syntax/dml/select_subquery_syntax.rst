@@ -1,6 +1,6 @@
-:original_name: ddm-08-0012.html
+:original_name: ddm_08_0012.html
 
-.. _ddm-08-0012:
+.. _ddm_08_0012:
 
 SELECT Subquery Syntax
 ======================

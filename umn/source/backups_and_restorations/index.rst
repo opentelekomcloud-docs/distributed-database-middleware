@@ -5,8 +5,8 @@
 Backups and Restorations
 ========================
 
--  :ref:`Restoring Data to a New Instance <ddm_0600016>`
--  :ref:`Restoring Metadata <ddm_0600017>`
+-  :ref:`Restoring Data to a New Instance <ddm_06_0016>`
+-  :ref:`Restoring Metadata <ddm_06_0017>`
 
 .. toctree::
    :maxdepth: 1

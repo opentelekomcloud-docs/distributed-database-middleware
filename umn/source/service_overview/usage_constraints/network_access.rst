@@ -1,6 +1,6 @@
-:original_name: ddm-01-0004.html
+:original_name: ddm_01_0004.html
 
-.. _ddm-01-0004:
+.. _ddm_01_0004:
 
 Network Access
 ==============

@@ -1,6 +1,6 @@
-:original_name: ddm-08-0003.html
+:original_name: ddm_08_0003.html
 
-.. _ddm-08-0003:
+.. _ddm_08_0003:
 
 DDL
 ===

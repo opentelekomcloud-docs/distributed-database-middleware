@@ -1,16 +1,16 @@
-:original_name: ddm-08-0002.html
+:original_name: ddm_08_0002.html
 
-.. _ddm-08-0002:
+.. _ddm_08_0002:
 
 Supported SQL Statements
 ========================
 
--  :ref:`CHECK TABLE <ddm-08-0014>`
--  :ref:`SHOW RULE <ddm-08-0015>`
--  :ref:`SHOW TOPOLOGY <ddm-08-0017>`
--  :ref:`SHOW DATA NODE <ddm-08-0029>`
--  :ref:`TRUNCATE TABLE <ddm-08-0023>`
--  :ref:`HINT- ALLOW_ALTER_RERUN <ddm-08-0027>`
+-  :ref:`CHECK TABLE <ddm_08_0014>`
+-  :ref:`SHOW RULE <ddm_08_0015>`
+-  :ref:`SHOW TOPOLOGY <ddm_08_0017>`
+-  :ref:`SHOW DATA NODE <ddm_08_0130>`
+-  :ref:`TRUNCATE TABLE <ddm_08_0023>`
+-  :ref:`HINT- ALLOW_ALTER_RERUN <ddm_08_0027>`
 -  :ref:`LOAD DATA <ddm_03_0031>`
 -  :ref:`SHOW PHYSICAL PROCESSLIST <ddm_08_0032>`
 -  :ref:`Customized Hints for Read/Write Splitting <ddm_03_0034>`
