@@ -1,6 +1,6 @@
-:original_name: ddm-08-0021.html
+:original_name: ddm_08_0021.html
 
-.. _ddm-08-0021:
+.. _ddm_08_0021:
 
 Checking DDL Consistency of Physical Tables in All Logical Tables
 =================================================================

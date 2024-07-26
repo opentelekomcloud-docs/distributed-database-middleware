@@ -5,7 +5,7 @@
 Instance Management
 ===================
 
--  :ref:`Creating a DDM Instance <ddm_06_00017>`
+-  :ref:`Creating a DDM Instance <ddm_06_0132>`
 -  :ref:`Splitting Read-only and Read-Write Services <ddm_06_0025>`
 -  :ref:`Changing Class of a DDM Node <ddm_06_0003>`
 -  :ref:`Scaling Out a DDM Instance <ddm_06_0011>`

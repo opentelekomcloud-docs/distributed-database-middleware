@@ -1,6 +1,6 @@
-:original_name: ddm-08-0027.html
+:original_name: ddm_08_0027.html
 
-.. _ddm-08-0027:
+.. _ddm_08_0027:
 
 HINT- ALLOW_ALTER_RERUN
 =======================

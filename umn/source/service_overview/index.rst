@@ -9,9 +9,9 @@ Service Overview
 -  :ref:`Basic Concepts <ddm_01_0018>`
 -  :ref:`Core Functions <ddm_01_0016>`
 -  :ref:`Product Specifications <ddm_01_0017>`
--  :ref:`Usage Constraints <ddm-01-0003>`
+-  :ref:`Usage Constraints <ddm_01_0003>`
 -  :ref:`Regions and AZs <ddm_01_0007>`
--  :ref:`Application Scenarios <ddm-01-0002>`
+-  :ref:`Application Scenarios <ddm_01_0002>`
 
 .. toctree::
    :maxdepth: 1
