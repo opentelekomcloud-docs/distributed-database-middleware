@@ -1,13 +1,13 @@
-:original_name: ddm-08-0023.html
+:original_name: ddm_08_0023.html
 
-.. _ddm-08-0023:
+.. _ddm_08_0023:
 
 TRUNCATE TABLE
 ==============
 
--  :ref:`HINT-DB <ddm-08-0024>`
--  :ref:`HINT-TABLE <ddm-08-0025>`
--  :ref:`HINT-DB/TABLE <ddm-08-0026>`
+-  :ref:`HINT-DB <ddm_08_0024>`
+-  :ref:`HINT-TABLE <ddm_08_0025>`
+-  :ref:`HINT-DB/TABLE <ddm_08_0026>`
 
 .. toctree::
    :maxdepth: 1

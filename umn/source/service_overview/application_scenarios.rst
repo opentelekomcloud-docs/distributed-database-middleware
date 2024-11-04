@@ -1,6 +1,6 @@
-:original_name: ddm-01-0002.html
+:original_name: ddm_01_0002.html
 
-.. _ddm-01-0002:
+.. _ddm_01_0002:
 
 Application Scenarios
 =====================

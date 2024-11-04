@@ -1,6 +1,6 @@
-:original_name: ddm-08-0005.html
+:original_name: ddm_08_0005.html
 
-.. _ddm-08-0005:
+.. _ddm_08_0005:
 
 INSERT
 ======

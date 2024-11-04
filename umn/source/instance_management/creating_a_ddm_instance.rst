@@ -1,6 +1,6 @@
-:original_name: ddm_06_00017.html
+:original_name: ddm_06_0132.html
 
-.. _ddm_06_00017:
+.. _ddm_06_0132:
 
 Creating a DDM Instance
 =======================

@@ -1,6 +1,6 @@
-:original_name: ddm-08-0029.html
+:original_name: ddm_08_0130.html
 
-.. _ddm-08-0029:
+.. _ddm_08_0130:
 
 SHOW DATA NODE
 ==============

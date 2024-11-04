@@ -1,6 +1,6 @@
-:original_name: ddm-08-0007.html
+:original_name: ddm_08_0007.html
 
-.. _ddm-08-0007:
+.. _ddm_08_0007:
 
 REPLACE
 =======

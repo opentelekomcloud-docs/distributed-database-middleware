@@ -6,8 +6,8 @@ Account Management
 ==================
 
 -  :ref:`Creating an Account <ddm_05_0002>`
--  :ref:`Modifying an Account <ddm_05_0003>`
--  :ref:`Deleting an Account <ddm_05_0004>`
+-  :ref:`Modifying an Account <ddm_05_0133>`
+-  :ref:`Deleting an Account <ddm_05_0134>`
 -  :ref:`Resetting the Password of an Account <ddm_05_0008>`
 
 .. toctree::
