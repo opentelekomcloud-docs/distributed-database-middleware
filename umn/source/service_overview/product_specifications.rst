@@ -12,7 +12,8 @@ General-enhanced DDM instances use Intel® Xeon® Scalable processors. Working i
    ================ ============ ===== ===========
    Specification    Architecture vCPUs Memory (GB)
    ================ ============ ===== ===========
-   General-enhanced x86          8     16
+   General-enhanced x86          4     16
+   \                             8     16
    \                             16    32
    \                             32    64
    ================ ============ ===== ===========
