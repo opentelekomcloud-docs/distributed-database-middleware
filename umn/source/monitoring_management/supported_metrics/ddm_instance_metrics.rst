@@ -21,7 +21,7 @@ SYS.DDMS
 
    SYS.DDMS is the namespace of DDM 2.0.
 
-   DDM has been upgraded to version 2.0. The namespace is still SYS.DDM for existing users of DDM1.0.
+   DDM has been upgraded to version 2.0. The namespace is still SYS.DDM for existing users of DDM 1.0.
 
 Metrics
 -------
@@ -53,7 +53,7 @@ Metrics
    +------------------------------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+------------------+--------------------------------+
    | ddm_backend_connection_ratio | Percentage of Active Connections | Percentage of active connections (from a DDM node to the target RDS instance)                                                                                                  | 0—100       | DDM nodes        | 1 minute                       |
    +------------------------------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+------------------+--------------------------------+
-   | active_connections           | Active connections               | Active connections of each DDM instance node                                                                                                                                   | >= 0        | DDM nodes        | 1 minute                       |
+   | ddm_active_connections       | Active connections               | Active connections of each DDM instance node                                                                                                                                   | >= 0        | DDM nodes        | 1 minute                       |
    +------------------------------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+------------------+--------------------------------+
    | ddm_connection_util          | Connection Usage                 | Percentage of active connections to each DDM instance node                                                                                                                     | 0—100       | DDM nodes        | 1 minute                       |
    +------------------------------+----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+------------------+--------------------------------+
