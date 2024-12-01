@@ -1,6 +1,6 @@
-:original_name: ddm-08-0009.html
+:original_name: ddm_08_0009.html
 
-.. _ddm-08-0009:
+.. _ddm_08_0009:
 
 UPDATE
 ======

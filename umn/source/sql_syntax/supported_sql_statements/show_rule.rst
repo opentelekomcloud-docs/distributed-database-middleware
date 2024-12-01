@@ -1,6 +1,6 @@
-:original_name: ddm-08-0015.html
+:original_name: ddm_08_0015.html
 
-.. _ddm-08-0015:
+.. _ddm_08_0015:
 
 SHOW RULE
 =========

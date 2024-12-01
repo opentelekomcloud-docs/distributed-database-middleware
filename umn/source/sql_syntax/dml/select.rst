@@ -1,6 +1,6 @@
-:original_name: ddm-08-0006.html
+:original_name: ddm_08_0006.html
 
-.. _ddm-08-0006:
+.. _ddm_08_0006:
 
 SELECT
 ======
