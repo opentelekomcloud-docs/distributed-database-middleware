@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'ddm-api-ref.tex',
-     u'Distributed Database Middleware - API Reference',
+    u'Distributed Database Middleware - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
