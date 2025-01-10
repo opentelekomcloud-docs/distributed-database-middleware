@@ -12,5 +12,7 @@ Backups and Restorations
    :maxdepth: 1
    :hidden: 
 
+   backup_principles
+   consistent_backups
    restoring_data_to_a_new_instance
    restoring_metadata

@@ -17,7 +17,7 @@ Prerequisites
       -  The internal account name is in the format: Fixed prefix (such as DDMRW, DDMR, or DDMREP) + Hash value of the data node ID.
       -  A random password is generated, which contains 16 to 32 characters.
       -  All instances associated with one schema must have the same major MySQL version.
-      -  Multiple schemas can be created in a DDM instance and associated with the same data node. One DDM instance can be associated with either RDS for MySQL or GaussDB(for MySQL) instances, but not both.
+      -  Multiple schemas can be created in a DDM instance and associated with the same data node. One DDM instance can be associated with either RDS for MySQL or GaussDB(for MySQL) instances, but not both, and it cannot be associated with multiple RDS for MySQL instances with different versions. Otherwise, metadata restoration will fail.
       -  One data node cannot be associated with schemas in different DDM instances.
       -  If you create a sharded schema, more than one shard will be generated in the schema. Shard names follow the rule: *<schemaname>*\ \_\ *<number>*. *<number>* here indicates a four-digit number starting from 0000. This number will be incremented by one. For example, if a schema name is **db_cbb5** and there are 2 shards, the shard names are **db_cbb5_0000** and **db_cbb5_0001**.
       -  Read-only instances cannot be associated with the schema as data nodes.
