@@ -1,6 +1,6 @@
-:original_name: ddm-08-0026.html
+:original_name: ddm_08_0026.html
 
-.. _ddm-08-0026:
+.. _ddm_08_0026:
 
 HINT-DB/TABLE
 =============

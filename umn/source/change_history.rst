@@ -1,6 +1,6 @@
-:original_name: ddm_histroy_0003.html
+:original_name: ddm_history_0003.html
 
-.. _ddm_histroy_0003:
+.. _ddm_history_0003:
 
 Change History
 ==============
@@ -8,15 +8,17 @@ Change History
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Released On                       | Description                                                                                                                                           |
 +===================================+=======================================================================================================================================================+
+| 2024-03-14                        | Optimized the prerequisites and procedures in :ref:`Restoring Metadata <ddm_06_0017>`.                                                                |
++-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 2023-12-15                        | Optimized the description of tags in :ref:`Tags <ddm_06_1000>`.                                                                                       |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 2023-10-20                        | Modified the following content:                                                                                                                       |
 |                                   |                                                                                                                                                       |
 |                                   | Optimized the directory for monitoring management and the procedure for viewing monitoring information in :ref:`Monitoring Management <ddm_03_0050>`. |
 |                                   |                                                                                                                                                       |
-|                                   | Added parameter description in :ref:`Restoring Metadata <ddm_0600017>`.                                                                               |
+|                                   | Added parameter description in :ref:`Restoring Metadata <ddm_06_0017>`.                                                                               |
 |                                   |                                                                                                                                                       |
-|                                   | Added the description of tags in :ref:`Creating a DDM Instance <ddm_06_00017>`.                                                                       |
+|                                   | Added the description of tags in :ref:`Creating a DDM Instance <ddm_06_0132>`.                                                                        |
 |                                   |                                                                                                                                                       |
 |                                   | Added :ref:`Tags <ddm_06_1000>`.                                                                                                                      |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+

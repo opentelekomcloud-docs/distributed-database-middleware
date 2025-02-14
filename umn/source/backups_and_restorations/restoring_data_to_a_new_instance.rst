@@ -1,6 +1,6 @@
-:original_name: ddm_0600016.html
+:original_name: ddm_06_0016.html
 
-.. _ddm_0600016:
+.. _ddm_06_0016:
 
 Restoring Data to a New Instance
 ================================
@@ -25,7 +25,7 @@ Procedure
 
 #. Log in to the DDM console.
 
-#. .. _ddm_0600016__li4793191882712:
+#. .. _ddm_06_0016__li4793191882712:
 
    Create a new DDM instance in the region where the source DDM instance is located or select an existing DDM instance that meets the requirements.
 
@@ -33,7 +33,7 @@ Procedure
 
       Ensure that the new DDM instance or the selected existing DDM instance is not associated with any RDS for MySQL instance and has no schemas or accounts.
 
-#. .. _ddm_0600016__li1017501443616:
+#. .. _ddm_06_0016__li1017501443616:
 
    On the RDS console, create as many RDS for MySQL instances as there are in the source DDM instance.
 
@@ -61,9 +61,9 @@ Procedure
       |                                   |                                                                                                                      |
       |                                   | DDM checks whether the associated data nodes have available backups at the selected point in time.                   |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-      | Destination DDM Instance          | Select the DDM instance created in :ref:`2 <ddm_0600016__li4793191882712>` as the destination instance.              |
+      | Destination DDM Instance          | Select the DDM instance created in :ref:`2 <ddm_06_0016__li4793191882712>` as the destination instance.              |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
-      | Associated Data Nodes             | Select the RDS for MySQL instances created in :ref:`3 <ddm_0600016__li1017501443616>` as the destination data nodes. |
+      | Associated Data Nodes             | Select the RDS for MySQL instances created in :ref:`3 <ddm_06_0016__li1017501443616>` as the destination data nodes. |
       +-----------------------------------+----------------------------------------------------------------------------------------------------------------------+
 
 #. Confirm the information and click **OK**. Wait for 1 to 3 minutes for the data restoration to complete.

@@ -1,6 +1,6 @@
-:original_name: ddm-08-0008.html
+:original_name: ddm_08_0008.html
 
-.. _ddm-08-0008:
+.. _ddm_08_0008:
 
 DELETE
 ======

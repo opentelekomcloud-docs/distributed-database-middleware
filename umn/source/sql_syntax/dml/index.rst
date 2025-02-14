@@ -1,18 +1,18 @@
-:original_name: ddm-08-0004.html
+:original_name: ddm_08_0004.html
 
-.. _ddm-08-0004:
+.. _ddm_08_0004:
 
 DML
 ===
 
--  :ref:`INSERT <ddm-08-0005>`
--  :ref:`REPLACE <ddm-08-0007>`
--  :ref:`DELETE <ddm-08-0008>`
--  :ref:`UPDATE <ddm-08-0009>`
--  :ref:`SELECT <ddm-08-0006>`
--  :ref:`SELECT JOIN Syntax <ddm-08-0010>`
--  :ref:`SELECT UNION Syntax <ddm-08-0011>`
--  :ref:`SELECT Subquery Syntax <ddm-08-0012>`
+-  :ref:`INSERT <ddm_08_0005>`
+-  :ref:`REPLACE <ddm_08_0007>`
+-  :ref:`DELETE <ddm_08_0008>`
+-  :ref:`UPDATE <ddm_08_0009>`
+-  :ref:`SELECT <ddm_08_0006>`
+-  :ref:`SELECT JOIN Syntax <ddm_08_0010>`
+-  :ref:`SELECT UNION Syntax <ddm_08_0011>`
+-  :ref:`SELECT Subquery Syntax <ddm_08_0012>`
 -  :ref:`Supported System Schema Queries <ddm_12_0100>`
 
 .. toctree::

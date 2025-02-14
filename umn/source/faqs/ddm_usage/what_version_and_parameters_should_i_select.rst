@@ -7,7 +7,7 @@ What Version and Parameters Should I Select?
 
 Currently, you cannot connect to DDM using JDBC driver 5.1.46. Versions 5.1.35 to 5.1.45 are recommended.
 
-JDBC driver download address: `https://dev.mysql.com/doc/index-connectors.html <https://dev.mysql.com/downloads/connector/j/>`__
+JDBC driver download address:https://dev.mysql.com/downloads/connector/j/
 
 :ref:`Table 1 <ddm_04_0009__table127264441235>` describes the recommended parameters for the JDBC URL.
 

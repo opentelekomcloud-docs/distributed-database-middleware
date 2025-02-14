@@ -1,6 +1,6 @@
-:original_name: ddm-08-0011.html
+:original_name: ddm_08_0011.html
 
-.. _ddm-08-0011:
+.. _ddm_08_0011:
 
 SELECT UNION Syntax
 ===================
