@@ -80,7 +80,7 @@ Using the MySQL CLI to Log In to a Schema
 
    .. code-block::
 
-      mysql -h ${DDM_SERVER_ADDRESS} -P ${DDM_SERVER_PORT} -u ${DDM_USER} -p [-D ${DDM_DBNAME}] [--default -character -set=utf8][--default_auth=mysql_native_password]
+      mysql -h ${DDM_SERVER_ADDRESS} -P ${DDM_SERVER_PORT} -u ${DDM_USER} -p [-D ${DDM_DBNAME}] [--default -character -set=utf8][--default_auth=mysql_native_password] [--ssl]
 
    .. table:: **Table 1** Parameter description
 
@@ -102,6 +102,10 @@ Using the MySQL CLI to Log In to a Schema
       | default_auth=mysql_native_password | (Optional) The password authentication plug-in is used by default.                                                                                     | ``-``                 |
       |                                    |                                                                                                                                                        |                       |
       |                                    | If you use the MySQL 8.0 client, this parameter is required.                                                                                           |                       |
+      +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | ssl                                | (Optional) To use SSL to encrypt connections, you need to enable SSL first.                                                                            | ``-``                 |
+      |                                    |                                                                                                                                                        |                       |
+      |                                    | If you have enabled SSL, encrypted connections are used by default.                                                                                    |                       |
       +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. View the command output. The following is an example output of running a MySQL command in the Windows CLI.
@@ -170,7 +174,7 @@ Using a JDBC Driver to Log In to a Schema
 
    .. code-block::
 
-      loadBalanceAutoCommitStatementThreshold=5&loadBalanceHostRemovalGracePeriod=15000&loadBalanceBlacklistTimeout=60000&loadBalancePingTimeout=5000&retriesAllDown=10&connectTimeout=10000
+      loadBalanceAutoCommitStatementThreshold=5&loadBalanceHostRemovalGracePeriod=15000&loadBalanceBlacklistTimeout=60000&loadBalancePingTimeout=5000&retriesAllDown=10&connectTimeout=10000&useSSL=true;
 
    .. note::
 
@@ -181,3 +185,4 @@ Using a JDBC Driver to Log In to a Schema
       -  **loadBalancePingTimeout**: indicates the time in milliseconds that the connection will wait for a response to a ping operation when you set **loadBalanceValidateConnectionOnSwapServer** to **true**.
       -  **retriesAllDown**: indicates the maximum number of connection attempts before an exception is thrown when a valid host is searched. SQLException will be returned if the threshold of retries is reached with no valid connections obtained.
       -  **connectTimeout**: indicates the maximum amount of time in milliseconds that the JDBC driver is willing to wait to set up a socket connection. **0** indicates that the connection does not time out. This parameter is available to JDK-1.4 or later versions. The default value is **0**.
+      -  **useSSL**: indicates that an SSL connection is used to connect to DDM. This parameter is set to **true** by default.
