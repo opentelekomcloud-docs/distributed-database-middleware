@@ -5,6 +5,8 @@
 Backups and Restorations
 ========================
 
+-  :ref:`Backup Principles <ddm_12_0016>`
+-  :ref:`Consistent Backups <ddm_12_0005>`
 -  :ref:`Restoring Data to a New Instance <ddm_06_0016>`
 -  :ref:`Restoring Metadata <ddm_06_0017>`
 
