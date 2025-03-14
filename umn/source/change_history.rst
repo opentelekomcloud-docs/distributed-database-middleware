@@ -9,7 +9,7 @@ Change History
 | Released On                       | Description                                                                                                                                           |
 +===================================+=======================================================================================================================================================+
 | 2024-04-15                        | -  Added SSL parameters to the command for connecting to a schema in :ref:`Step 4: Log In to the DDM Schema <ddm_02_0005>`.                           |
-|                                   | -  Added the SSL encryption function in :ref:`Configuring SSL <ddm_06_0041>`.                                                                         |
+|                                   | -  Added the SSL encryption function in :ref:`Enabling and Disabling SSL for a DB instance <ddm_06_0041>`.                                            |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | 2024-03-14                        | Optimized the prerequisites and procedures in :ref:`Restoring Metadata <ddm_06_0017>`.                                                                |
 +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+

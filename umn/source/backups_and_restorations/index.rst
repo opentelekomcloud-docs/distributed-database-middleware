@@ -5,6 +5,8 @@
 Backups and Restorations
 ========================
 
+-  :ref:`Backup Principles <ddm_12_0016>`
+-  :ref:`Consistent Backups <ddm_12_0005>`
 -  :ref:`Restoring Data to a New Instance <ddm_06_0016>`
 -  :ref:`Restoring Metadata <ddm_06_0017>`
 
@@ -12,5 +14,7 @@ Backups and Restorations
    :maxdepth: 1
    :hidden: 
 
+   backup_principles
+   consistent_backups
    restoring_data_to_a_new_instance
    restoring_metadata
