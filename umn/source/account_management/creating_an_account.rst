@@ -29,7 +29,6 @@ Procedure
       +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Password                          | Password of the account. The password:                                                                                                                 |
       |                                   |                                                                                                                                                        |
-      |                                   | -  Must be case-sensitive.                                                                                                                             |
       |                                   | -  Can include 8 to 32 characters.                                                                                                                     |
       |                                   | -  Must contain at least three of the following character types: lowercase letters, uppercase letters, digits, and special characters ``~!@#%^*-_=+?`` |
       |                                   | -  Cannot be a weak password. It cannot be overly simple and easily guessed.                                                                           |
