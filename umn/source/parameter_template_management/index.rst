@@ -5,6 +5,7 @@
 Parameter Template Management
 =============================
 
+-  :ref:`Instance Parameters <ddm_05_0017>`
 -  :ref:`Creating a Parameter Template <ddm_05_0006>`
 -  :ref:`Editing a Parameter Template <ddm_05_0007>`
 -  :ref:`Comparing Two Parameter Templates <ddm_05_0009>`
@@ -19,6 +20,7 @@ Parameter Template Management
    :maxdepth: 1
    :hidden: 
 
+   instance_parameters
    creating_a_parameter_template
    editing_a_parameter_template
    comparing_two_parameter_templates

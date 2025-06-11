@@ -92,7 +92,7 @@ Cloud Trace Service (CTS) records operations related to DDM for further query, a
    +---------------------------------------------------------------------------+----------------+----------------------------------+
    | Changing a database port                                                  | instance       | modifyInstancePort               |
    +---------------------------------------------------------------------------+----------------+----------------------------------+
-   | Querying the flavor change list                                           | instance       | queryFlavor2Resize               |
+   | Querying the node class change list                                       | instance       | queryFlavor2Resize               |
    +---------------------------------------------------------------------------+----------------+----------------------------------+
    | Querying slow SQL statements                                              | instance       | listSlowLogs                     |
    +---------------------------------------------------------------------------+----------------+----------------------------------+
