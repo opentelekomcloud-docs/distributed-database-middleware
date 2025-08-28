@@ -64,3 +64,4 @@ body:
       placeholder: "Logs, error messages, screenshots, environment details..."
     validations:
       required: false
+  
