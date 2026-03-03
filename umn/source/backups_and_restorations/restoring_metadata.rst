@@ -73,7 +73,7 @@ Restoring Metadata Using Backups
 
 #. In the DDM instance list, locate the source instance and click its name.
 
-#. In the navigation pane on the left, choose **Backups**.
+#. In the navigation pane on the left, choose **Backups**. Alternatively, go to the instance details page and choose **Backups** in the navigation pane on the left.
 
 #. Locate the required backup based on the instance name and backup time and click **Restore** in the **Operation** column.
 
