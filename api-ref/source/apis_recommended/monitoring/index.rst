@@ -5,10 +5,10 @@
 Monitoring
 ==========
 
--  :ref:`Monitoring Slow Query Logs <ddm_api_01_0090>`
+-  :ref:`Monitoring Slow Query Logs (a V3 API) <ddm_api_01_0117>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   monitoring_slow_query_logs
+   monitoring_slow_query_logsa_v3_api
