@@ -9,5 +9,6 @@ Distributed Database Middleware - API Reference
    api_overview
    calling_apis/index
    apis_recommended/index
+   apis_unavailable_soon/index
    appendix/index
    change_history

@@ -138,24 +138,3 @@ For the API used to `obtain a user token <https://docs.otc.t-systems.com/en-us/a
    }
 
 If all data required for the API request is available, you can send the request to call the API through `curl <https://curl.haxx.se/>`__, `Postman <https://www.getpostman.com/>`__, or coding. For the API of obtaining a user token, **x-subject-token** in the response header is the required user token. This token can then be used to authenticate the calling of other APIs.
-
-Initiating Requests
--------------------
-
-You can initiate a request based on the constructed request message in one of the following ways:
-
--  cURL
-
-   cURL is a command-line tool used to perform URL operations and transmit information. It serves as an HTTP client that can send HTTP requests to the server and receive response messages. cURL is used for API debugging. For more information about cURL, visit https://curl.haxx.se/.
-
-   .. note::
-
-      For security purposes, run the **curl** command on the server to query information, and then clear operation records, including but not limited to records in the **~/.bash_history** and **/var/log/messages** directories (if any).
-
--  Code
-
-   You can call APIs using code to assemble, send, and process request messages.
-
--  REST client
-
-   Both Mozilla Firefox and Google Chrome provide a graphical browser plug-in, REST client, to send and process requests. For Mozilla Firefox, see `Firefox REST Client <https://addons.mozilla.org/en-US/firefox/addon/restclient/>`__. For Google Chrome, see `Chrome REST Client <https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/?hl=en>`__.
