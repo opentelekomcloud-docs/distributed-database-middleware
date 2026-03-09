@@ -9,6 +9,7 @@ Account Management
 -  :ref:`Modifying an Account <ddm_05_0133>`
 -  :ref:`Deleting an Account <ddm_05_0134>`
 -  :ref:`Resetting the Password of an Account <ddm_05_0008>`
+-  :ref:`Managing Permissions <ddm_05_0020>`
 
 .. toctree::
    :maxdepth: 1
@@ -18,3 +19,4 @@ Account Management
    modifying_an_account
    deleting_an_account
    resetting_the_password_of_an_account
+   managing_permissions/index

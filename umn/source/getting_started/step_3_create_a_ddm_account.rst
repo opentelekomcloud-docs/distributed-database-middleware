@@ -31,7 +31,7 @@ Procedure
       +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Schema                            | Schema to be associated with the DDM account. You can select an existing schema from the drop-down list.                                              |
       |                                   |                                                                                                                                                       |
-      |                                   | Only the associated schemas can be accessed using the account.                                                                                        |
+      |                                   | The account can be used to access only the associated schemas.                                                                                        |
       +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Permissions                       | Options: **CREATE**, **DROP**, **ALTER**, **INDEX**, **INSERT**, **DELETE**, **UPDATE**, and **SELECT**. You can select any or a combination of them. |
       +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+

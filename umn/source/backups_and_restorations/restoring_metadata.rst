@@ -17,15 +17,17 @@ Prerequisites
 -------------
 
 -  There is a source DDM instance available and associated with an RDS for MySQL instance. This DB instance is the source data node.
--  The source data node has been restored to a specified time point.
+-  The data from the source data node has been restored to the destination data node as it existed at a specified point in time.
+-  The destination RDS for MySQL instance and the destination DDM instance must be deployed in the same VPC and subnet and have the same security group rules.
 
 Constraints
 -----------
 
--  The destination DDM instance is not associated with any RDS for MySQL instance and has no schemas or accounts.
+-  The destination DDM instance is not associated with any RDS for MySQL instance and has no schemas and accounts.
 -  Restoration is not supported if the destination DDM instance is in the primary network and its associated RDS for MySQL instance is in the extended network.
 -  The source DDM instance must be of the version 2.3.2.11 or later, and the destination DDM instance must be of the version 3.0.8 or later.
 -  Time points that data can be restored to depend on the backup policy set on original data nodes.
+-  The time point to which metadata is restored must be the same as that to which an RDS for MySQL instance is restored.
 
 .. _ddm_06_0017__section128315484524:
 
@@ -36,7 +38,7 @@ Restoring Metadata to a Point in Time
 
 #. .. _ddm_06_0017__li4793191882712:
 
-   :ref:`Create a new DDM instance <ddm_06_0132>` and use it as the destination DDM instance. For details, see\ :ref:`Creating a DDM Instance <ddm_06_0132>`.
+   :ref:`Create a new DDM instance <ddm_06_0132>` and use it as the destination DDM instance. For details, see :ref:`Creating a DDM Instance <ddm_06_0132>`.
 
 #. In the DDM instance list, locate the source instance and click its name.
 
@@ -48,15 +50,17 @@ Restoring Metadata to a Point in Time
 
    .. table:: **Table 1** Parameter description
 
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                | Description                                                                                                                                                 |
-      +==========================+=============================================================================================================================================================+
-      | Restore To               | Specify a point in time. DDM will restore metadata to this point in time using the most recent backup.                                                      |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Destination DDM Instance | Select the DDM instance created in :ref:`2 <ddm_06_0017__li4793191882712>`.                                                                                 |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Destination Data Nodes   | Select the RDS for MySQL instances that have completed PITR. DDM will match the selected data nodes with shard information in the selected metadata backup. |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                                                                                                                                                                                                |
+      +===================================+============================================================================================================================================================================================================================================================================================+
+      | Restore To                        | Specify a point in time. DDM will restore metadata to this point in time using the most recent backup.                                                                                                                                                                                     |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Destination DDM Instance          | Select the DDM instance created in :ref:`2 <ddm_06_0017__li4793191882712>`.                                                                                                                                                                                                                |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Destination Data Nodes            | Select the RDS for MySQL instances that have completed PITR. DDM will match the selected data nodes with shard information in the selected metadata backup.                                                                                                                                |
+      |                                   |                                                                                                                                                                                                                                                                                            |
+      |                                   | For details about how to perform PITR on RDS for MySQL instances, see `Restoring a DB Instance to a Point in Time <https://docs.otc.t-systems.com/relational-database-service/umn/working_with_rds_for_mysql/backups_and_restorations/restoring_a_db_instance_to_a_point_in_time.html>`__. |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **OK**. If a message is displayed indicating that the metadata is restored successfully, the restoration is complete.
 
@@ -69,7 +73,7 @@ Restoring Metadata Using Backups
 
 #. .. _ddm_06_0017__li881143742017:
 
-   :ref:`Create a new DDM instance <ddm_06_0132>` and use it as the destination DDM instance. For details, see\ :ref:`Creating a DDM Instance <ddm_06_0132>`.
+   :ref:`Create a new DDM instance <ddm_06_0132>` and use it as the destination DDM instance. For details, see :ref:`Creating a DDM Instance <ddm_06_0132>`.
 
 #. In the DDM instance list, locate the source instance and click its name.
 
@@ -81,14 +85,16 @@ Restoring Metadata Using Backups
 
    .. table:: **Table 2** Parameter description
 
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                | Description                                                                                                                                                 |
-      +==========================+=============================================================================================================================================================+
-      | Backup Name              | Name of the backup to be restored.                                                                                                                          |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Destination DDM Instance | Select the DDM instance created in :ref:`2 <ddm_06_0017__li881143742017>`.                                                                                  |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Destination Data Nodes   | Select the RDS for MySQL instances that have completed PITR. DDM will match the selected data nodes with shard information in the selected metadata backup. |
-      +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                                                                                                                                                                                                |
+      +===================================+============================================================================================================================================================================================================================================================================================+
+      | Backup Name                       | Name of the backup to be restored.                                                                                                                                                                                                                                                         |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Destination DDM Instance          | Select the DDM instance created in :ref:`2 <ddm_06_0017__li881143742017>`.                                                                                                                                                                                                                 |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Destination Data Nodes            | Select the RDS for MySQL instances that have completed PITR. DDM will match the selected data nodes with shard information in the selected metadata backup.                                                                                                                                |
+      |                                   |                                                                                                                                                                                                                                                                                            |
+      |                                   | For details about how to perform PITR on RDS for MySQL instances, see `Restoring a DB Instance to a Point in Time <https://docs.otc.t-systems.com/relational-database-service/umn/working_with_rds_for_mysql/backups_and_restorations/restoring_a_db_instance_to_a_point_in_time.html>`__. |
+      +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 #. Click **OK**. If a message is displayed indicating that the metadata is restored successfully, the restoration is complete.
