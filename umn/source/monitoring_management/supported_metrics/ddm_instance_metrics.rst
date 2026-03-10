@@ -15,14 +15,6 @@ Namespace
 
 SYS.DDMS
 
-.. note::
-
-   SYS.DDM is the namespace of DDM 1.0.
-
-   SYS.DDMS is the namespace of DDM 2.0.
-
-   DDM has been upgraded to version 2.0. The namespace is still SYS.DDM for existing users of DDM 1.0.
-
 Metrics
 -------
 
