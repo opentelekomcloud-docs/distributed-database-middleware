@@ -41,7 +41,7 @@ CREATE USER     Creating a user
 Precautions
 -----------
 
--  Basic permissions of a DDM account can only be modified on the DDM console.
+-  Basic permissions of a DDM account can only be modified on the DDM console. Permissions granted by running the GRANT statement through a database client are not displayed on the DDM console.
 -  If a DDM account has table or database permissions on a schema, the schema will be displayed in the row where the account is located.
 -  Users created by the CREATE USER statement support only user-level permissions.
 -  If a DDM account has been associated with a schema, deleting this schema or tables in it does not affect the permissions assigned to the account.
