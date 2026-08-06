@@ -14,7 +14,7 @@ Prerequisites
 
 -  The DDM instance is running normally.
 
-   Monitored data of faulty or deleted DDM instances are not displayed on Cloud Eye.
+   Monitored data of faulty or deleted DDM instances is not displayed on Cloud Eye.
 
 -  The DDM instance has been normally running for about 10 minutes.
 
